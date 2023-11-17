@@ -2,37 +2,21 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  padding: 20px;
+  border: 1px solid black;
+  margin: 3px;
+  background-color: rgb(221, 221, 253);
+  border-radius: 9px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input{
+  margin-top: 200px;
+  padding: 15px;
+  border: 2px solid rgb(3, 3, 3);
+  border-radius: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+div{
+  background-image: url(https://graphicriver.img.customer.envatousercontent.com/files/86232890/Calculator%20a%20background590.jpg?auto=compress%2Cformat&fit=crop&crop=top&max-h=8000&max-w=590&s=118c4613229b3fd26e5834b0f5d44ff5);
 }
